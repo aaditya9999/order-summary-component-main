@@ -1,0 +1,229 @@
+
+    /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+    /* font-family: 'Red Hat Display', sans-serif; */
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing:border-box; */
+
+}
+body{
+
+    background-image: url('D:\PROJECTS\order-summary-component-main\images\pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    font-size: 16px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color:hsl(225, 100%, 94%);
+}
+
+
+
+
+.box{
+width:380px;    
+display:grid;
+background-color:white;
+/* overflow:hidden; */
+border-radius:12px;
+box-shadow:0 10px 10px -4px  hsl(248, 27%, 54%);
+}
+.dha{
+    /* padding:20px; */
+    text-align: center;
+    margin:0 2em;
+    
+  
+}
+
+.pat{
+    max-width:100%;
+    display:inherit;
+    border-radius:12px 12px 0 0;
+}
+
+.heading{color:hsl(223, 47%, 23%);
+    font-family:'Red Hat Display', sans-serif;
+    font-weight:900;
+    padding:28px 0;
+    padding-bottom:10px;
+}
+.para{Font-size: 14px;
+    color:hsl(224, 23%, 55%);
+    padding-bottom:2em;
+    font-weight:500;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+
+
+
+/* music image annual plan and year change */
+
+.plan{
+    display:flex;
+    /* grid-template-columns:1fr 1fr 1fr; */
+    padding-bottom:1em;
+    margin-left:1em;
+}
+
+.rata{padding-right: 14px;
+    max-width:40px;
+    
+
+   }
+
+
+
+.ap{
+    padding-right:70px;
+}
+.annual{
+     color: hsl(223, 47%, 23%);
+    font-weight:900;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size:14px;
+
+}
+.year{font-size:14px;
+    color: hsl(224, 23%, 55%);
+    font-weight:700;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-top:2px;
+}
+
+.chan{
+    color: hsl(245, 75%, 52%);
+    font-weight:700;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size:14px;
+    margin-top:9px;
+    text-decoration:underline;
+   
+
+}
+
+
+/* BUTTOn */
+.pay{
+    color:hsl(225, 100%, 98%);
+    background-color:hsl(245, 75%, 52%);
+    padding:13px 90px;
+    margin:20px 0 0 0;
+    border-radius:12px;
+    border:none;
+    font-weight:700;
+    font-family: 'Red Hat Display', sans-serif;
+    box-shadow:0 6px 30px -4px  hsl(248, 27%, 54%);
+   
+}
+
+/* cancel */
+
+.can{color:hsl(224, 23%, 55%);
+    font-weight:700;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-top:1.5em;
+    margin:0 0 3em 0;
+    font-size:14px;
+    
+   
+}
+/* hover */
+
+.chan:hover{color:hsl(246, 54%, 62%); 
+cursor:pointer;
+text-decoration:none;
+}
+
+.pay:hover{
+    background-color:hsl(246, 54%, 62%);
+    cursor:pointer;
+}
+.can:hover{
+    cursor:pointer;
+    color:hsl(223, 47%, 23%);
+
+}
+/* responsive */
+
+
+@media only screen and (max-width:660px){
+   .container{
+    padding:0 -30px ;
+    margin:0 auto;   
+}    
+.box{width:340px;
+    height:550px;
+    
+    
+    
+    /* overflow:hidden; */
+    border-radius:12px;
+
+}
+.pat{
+    /* min-width:100%; */
+    /* min-height:80%; */
+    display:inherit;
+}   
+
+
+}
+/* @media only screen and (max-width:375px){
+.container{
+    margin:0 10px;
+    padding:20px auto ;
+
+}
+.box{
+    padding:10px;
+} */
+
+
+
+/* @media only screen and (max-width:375px){ 
+
+        
+    .container{ margin:10px auto;
+                padding:0 10px;
+    }
+    .pic img{
+        max-height:270px;
+    }
+    .about-product{
+     padding: 10px;  
+    }
+    h6.perfume,h3.productname,.productdiscp,.prices{
+        padding-bottom:16px;
+    
+    
+    }
+    h3.productname{
+        font-size:30px;
+
+    }
+    p.productdiscp{
+        font-size:14px;
+    }
+    p.oprice{
+        font-size:24px;
+    }
+    button.cart{
+        padding:7px 0;
+        font-size:17px;
+
+
+    }
+}
